@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Vimeo from 'react-vimeo';
 
 class IndexPage extends React.Component {
   render() {
@@ -30,6 +31,7 @@ class IndexPage extends React.Component {
           <p>{asciiUnder}</p>
           <p>{asciiConstruction}</p>
         </div>
+        <Vimeo videoId="107628264" />
       </div>
     );
   }
